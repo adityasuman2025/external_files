@@ -1,0 +1,38 @@
+<head>
+<link rel="stylesheet" href="jquery.bxslider.css"/>
+<style>
+	.slider
+	{
+		margin:0;
+		list-style: none;
+		padding: 0;
+		
+	}
+	
+	.slider img
+	{
+		width: 100%;
+	}
+	
+</style>
+</head>
+<body>
+	<ul class="slider">
+		<li><img src="images/3d1.jpg"/></li>
+		<li><img src="images/3d2.jpg"/></li>
+		<li><img src="images/3d3.jpg"/></li>
+	</ul>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.bxslider.js"></script>
+	
+	<script type="text/javascript">
+		
+		$('.slider').bxSlider(
+		{
+			mode: 'horizontal',
+			auto: true
+		});
+	
+	</script>
+</body>
